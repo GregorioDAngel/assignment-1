@@ -48,6 +48,19 @@ p {
     color: rgb(0, 174, 255);;
 }
 
+input {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+p.footer {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgb(0, 174, 255);
+}
+
 p.Date {
     font-size: 25px;
     color: rgb(0, 174, 255);
