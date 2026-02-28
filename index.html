@@ -12,10 +12,11 @@
     <head>
        <title>patient-form</title>
 
+        <!-- This is the link to the css file -->
        <link rel="stylesheet" href="style.css" type="text/css">
        <script src="patient-form.js"></script>
     </head>
-
+<!-- This is the header for the page -->
     <body data-new-gr-c-s-check-loaded="14.1275.0" data-gr-ext-installed data-new-gr-c-s-loaded="14.1275.0">
         <div id="header">
             <table width="100%">
@@ -36,10 +37,12 @@
             </table>
         </div>
         <hr>
+<!-- This is the body for the page -->
         <div id="body">
             <form action="patient-form-thank-you.html">
                 <table class="form">
                     <tbody>
+                        <!-- This is the beginning section for the patient-form where the user sets up a new account -->
                         <tr class="form">
                             <th class="form" colspan="3"> Set Up a New Account</th>
                         </tr>
@@ -78,6 +81,7 @@
                             </td>
                         </tr>
                     </tbody>
+                    <!-- This is the middle section for the patient-form where the user starts entering their personal information -->
                     <tbody>
                         <tr class="form">
                             <th class="form" colspan="3">Patient Information</th>
@@ -236,6 +240,7 @@
                                     <label for="Insurance">No</label>
                                 </td>
                             </tr>
+                            <!-- Conditions that may apply to the patient in order to help us better serve them -->
                             <tr class="form">
                                     <th class="form" colspan="3" align="center">Please select any conditions that may apply to you:</th>
                             </tr>
@@ -328,15 +333,18 @@
             </form>
         </div>
         <hr>
+<!-- This is the footer for the page -->
         <div id="footer">
         <p class="footer">United Medical<br>
             123 Main Street, Anytown, USA <br>
             (123) 456-7890
         </p>
+        <!-- This is the action that sends the user to the contact page in the future -->
         <form action="contact.html">
             <input type="submit" value="Contact Us">
         </form>
         </div>
+        <!-- This is the Javascript for the patient-form date -->
         <script src="patient-form.js"></script>
         <script>
             document.getElementById("today").innerHTML = new Date().toLocaleDateString();
